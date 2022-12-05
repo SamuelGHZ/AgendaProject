@@ -1,0 +1,78 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* Color Palette */
+:root {
+  --mainBackground: #bdbaba;
+}
+
+
+/* - HEADER COMPONENT - */
+.main-bgheader {
+  display: block;
+  position: relative;
+  background-color: var(--mainBackground);
+  height: 100px;
+
+}
+
+.main-bgheader h1 {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  top: 25%;
+}
+
+/* - PROFILE COMPONENT - */
+
+.main-bgprofile {
+  display: inline-block;
+  justify-content: center;
+  background-color: bisque;
+  width: auto;
+  padding: 10px 50px;
+  height: 100vh;
+}
+
+.profileInfo .userImage {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 70px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.profileInfo .userFName{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profileInfo .userMail{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.profilePermisions {
+  margin-top: 40px;
+}
+
+
+.profilePermisions h1 {
+  font-size: 20px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 5px;  
+  
+}
+
+/* LIST COMPONENT */
