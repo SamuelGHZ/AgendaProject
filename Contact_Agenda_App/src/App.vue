@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import ProfileComponent from './components/ProfileComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
-import ListComponent from './components/ListComponent.vue';
-import BoxIcons from 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
+import ListComponent from './components/ListComponent.vue'
+
 </script>
 
 <template>
@@ -14,6 +14,3 @@ import BoxIcons from 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
   <main>
   </main>
 </template>
-
-<style scoped>
-</style>
