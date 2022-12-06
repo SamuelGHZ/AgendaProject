@@ -6,7 +6,7 @@ import ListComponent from './components/ListComponent.vue'
 </script>
 
 <template>
-  <header>
+  <header class="main-container">
     <HeaderComponent />
     <ProfileComponent />
     <ListComponent />
